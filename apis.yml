@@ -1,8 +1,20 @@
 aid: heavyconnect
 name: HeavyConnect
-description: HeavyConnect is a company surfaced as a portfolio company of 500-global, techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  HeavyConnect is a digital documentation and compliance platform purpose-built
+  for agricultural operations, serving growers, harvesters, shippers, and
+  processors. Its mobile-first, offline-capable modules cover food safety
+  compliance, worker training and certification, time and productivity tracking,
+  quality assurance inspections, end-to-end traceability, and supplier
+  management. The platform replaces paper-based recordkeeping with audit-ready
+  digital documentation and real-time analytics dashboards, helping food and
+  agriculture operations stay inspection-ready. HeavyConnect reports 2,600+
+  active users across operations including Sysco, Naturipe, Talley, and Empire.
+  It is offered as a month-to-month subscription with a request-a-demo onboarding
+  path. This API Evangelist profile was seeded as a portfolio-company lead (500
+  Global, Techstars) and enriched from the company's public web presence; no
+  public developer API or documentation surface was found at the time of
+  enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/heavyconnect/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +23,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://heavyconnect.com/images/logos/icon-white-bg-blue-round.png
 tags:
 - Company
+- Agriculture
+- Food Safety
+- Compliance
+- Traceability
+- Workforce Management
+- Quality Assurance
+- AgTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +54,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/heavyconnect-domain-security.yml
 - type: Website
   url: https://heavyconnect.com
+- type: Blog
+  url: https://heavyconnect.com/blog
+- type: Support
+  url: https://heavyconnect.com/contact
+- type: SignUp
+  url: https://heavyconnect.com/demo
+- type: Login
+  url: https://dashboard.heavyconnect.com
+- type: TermsOfService
+  url: https://heavyconnect.com/terms
+- type: PrivacyPolicy
+  url: https://heavyconnect.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
